@@ -68,7 +68,7 @@ body{
     margin-right: 20px;
     color: gray;
     font-size: 35px;
-    background-color: rgba(235, 231, 231, 0.219);
+    background-color: rgba(235, 231, 231, 0.322);
     padding: 16px 16px;
     font-family: 'Inter';
     margin-top: 20px;
@@ -134,7 +134,7 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .bloge1{
-    margin-top: 130px;
+  margin-top: 130px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -224,4 +224,72 @@ body{
     font-weight: 400;
     font-size: 14px;
     font-family: 'Poppins';
+}
+@media screen and (max-width:576px) {
+    .header{
+        width: 100%;
+    height: 660px;
+    }
+    .header-tital{
+        font-size: 50px;
+    }
+    .amount{
+        flex-direction: column;
+        align-items: center;
+    }
+    .mmain input{
+        margin-top: 20px;
+        margin-bottom: 30px;
+        padding: 10px 50px 10px 50px;
+    }
+    .donate-plan-option{
+        flex-direction: column;
+    }
+    .option{
+        margin: 20px 0 0 0;
+    }
+    .img img{
+        width: 100%;
+    }
+    .blog{
+        padding: 10px;
+    }
+    .bloge1{
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin-top: 50px;
+    }
+    .min-bloge{
+            flex-direction: column;
+            gap: 10px;
+    }
+    .emai input{
+        padding: 15px 40px 19px 10px ;   
+    }
+    .footer{
+        margin-top:0px;
+        height:130px
+    }
+    
+}
+@media screen and (min-width:577px) and (max-width:992px) {
+    .donate-plan-option{
+        flex-direction: column;
+    }
+    .bloge1{
+        flex-direction: column-reverse;
+    }
+    .min-bloge{
+        flex-direction: column;
+    }
+    .option{
+        text-align: center;
+    }
+    .donate-plan-option-disraption{
+        text-align: center;
+        width: 100%;
+    }
+}
+.haid{
+    display: none;
 }
